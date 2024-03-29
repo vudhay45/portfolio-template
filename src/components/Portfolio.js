@@ -59,8 +59,8 @@ const Portfolio = () => {
               <ul className="gallery_zoom grid">
           
                 {ProjectData.map((project,index)=>(
-                <li className="grid-item">
-                  <div key={index}className="list_inner">
+                <li className="grid-item" key={index}>
+                  <div className="list_inner">
 
                     <div className="image">
                       <img src={project.image.url} alt={project.title} />
